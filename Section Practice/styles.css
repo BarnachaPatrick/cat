@@ -1,0 +1,99 @@
+body{
+    margin:0;
+    font-family:'Lato', sans-serif;
+    font-size:18px;
+    color:#2e354f;
+}
+
+/* typography */
+
+h1,
+h2,
+.bold{
+    font-weight: 900;
+}
+
+
+h1{
+    font-size: 36px;    
+}
+
+h2{
+    font-size: 24px;
+    color:#ef5839;
+
+}
+
+
+a {
+    color:#ef5839;
+}
+
+a:hover,
+a:focus{
+    color:darkgoldenrod;
+}
+
+
+/* layout */
+
+header{
+    background:#2e354f; 
+    color:#fff;
+    padding: 15px 0;
+    
+}
+
+.container{
+   width: 620px;
+   margin: 0 auto;
+   
+}
+
+section{
+    padding:20px 0;
+}
+
+section:first-child{
+    padding-top: 0;
+} 
+
+.section-two{
+    color:#fff;
+    background:#2e354f;
+}
+
+img{
+    max-width: 620px;
+    margin: 0;
+}
+
+/* buttons */
+
+.btn{
+   padding: 10px 25px;
+   display: inline-block;
+   text-decoration:none;
+}
+
+.btn-contact{
+    background-color: #ef5839;
+    color: #fff;
+}
+
+.btn-info{
+    background: #fff;
+    color: #2e354f;
+}
+
+
+.btn-contact:hover{
+    background:#ccc934;
+    color:black;
+}
+
+
+.btn-info:hover{
+    background: #a9c5cc;
+    color:black;
+}
